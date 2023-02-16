@@ -10,5 +10,6 @@
 Console.Write("Введите первое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int result = (number % 10) * 10 - (number % 100) * 100 ;
-Console.WriteLine("Исходное число " + number + "; 2 цифра: " + result);
+int result = (number / 10) - (number / 100) * 10;
+
+Console.WriteLine( result  );
