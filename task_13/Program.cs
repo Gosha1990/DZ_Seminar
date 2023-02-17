@@ -13,9 +13,8 @@
 Console.Write("Введите семизначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = (number / 10000) - (number / 100000) * 10;
-
 int newresult = (number / 100) - (number / 1000) * 10;
-
+   
 Console.WriteLine("Третья цифра с права");
 Console.WriteLine(result );
 Console.WriteLine("Третья цифра с лева");
